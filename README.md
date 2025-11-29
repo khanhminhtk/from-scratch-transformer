@@ -142,20 +142,20 @@ Dự án này dựa trên các ý tưởng kinh điển trong deep learning & Tr
 - **Attention is All You Need**  
   *Ashish Vaswani, Noam Shazeer, Niki Parmar, et al., NeurIPS 2017*  
   Bài báo giới thiệu kiến trúc Transformer, scaled dot-product attention, multi-head attention, positional encoding.  
-  PDF / arXiv: https://arxiv.org/abs/1706.03762 :contentReference[oaicite:0]{index=0}
-
+  PDF / arXiv: https://arxiv.org/abs/1706.03762
+  
 - **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**  
   *Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova, 2018*  
   Sử dụng encoder stack kiểu Transformer (giống phần `Bert` trong repo) cho các bài toán NLP.  
-  ArXiv: https://arxiv.org/abs/1810.04805 :contentReference[oaicite:1]{index=1}
+  ArXiv: https://arxiv.org/abs/1810.04805
 
 - **Adam: A Method for Stochastic Optimization**  
   *Diederik P. Kingma, Jimmy Ba, 2014*  
   Trình bày optimizer Adam – nền tảng cho phần cập nhật moment `m`, `v` trong `AdamW`.  
-  ArXiv: https://arxiv.org/abs/1412.6980 :contentReference[oaicite:2]{index=2}
+  ArXiv: https://arxiv.org/abs/1412.6980
 
 - **Decoupled Weight Decay Regularization (AdamW)**  
   *Ilya Loshchilov, Frank Hutter, ICLR 2019*  
   Phân biệt rõ Adam + L2 regularization và **AdamW** với weight decay tách rời – chính là kiểu update được hiện thực trong `optimizer/adamw.py`.  
-  ArXiv: https://arxiv.org/abs/1711.05101 :contentReference[oaicite:3]{index=3}
+  ArXiv: https://arxiv.org/abs/1711.05101
 
