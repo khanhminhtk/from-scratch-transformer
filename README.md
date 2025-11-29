@@ -138,7 +138,7 @@ Training hoàn thành!
 ## 📚 Tài liệu & bài báo liên quan
 
 Dự án này dựa trên các ý tưởng kinh điển trong deep learning & Transformer:
-```
+
 - **Attention is All You Need**  
   *Ashish Vaswani, Noam Shazeer, Niki Parmar, et al., NeurIPS 2017*  
   Bài báo giới thiệu kiến trúc Transformer, scaled dot-product attention, multi-head attention, positional encoding.  
@@ -158,4 +158,4 @@ Dự án này dựa trên các ý tưởng kinh điển trong deep learning & Tr
   *Ilya Loshchilov, Frank Hutter, ICLR 2019*  
   Phân biệt rõ Adam + L2 regularization và **AdamW** với weight decay tách rời – chính là kiểu update được hiện thực trong `optimizer/adamw.py`.  
   ArXiv: https://arxiv.org/abs/1711.05101 :contentReference[oaicite:3]{index=3}
-```
+
